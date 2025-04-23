@@ -91,6 +91,7 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.lito
 
 PRODUCT_PACKAGES += \
+    libaudio-resampler \
     liba2dpoffload \
     libbatterylistener \
     libcomprcapture \
@@ -103,7 +104,6 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libssrec \
-    libtinycompress \
     libvolumelistener
 
 PRODUCT_PACKAGES += \
@@ -112,6 +112,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc) \
     $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_lagoon_qrd.xml
+
+PRODUCT_COPY_FILES += \
+    hardware/qcom-caf/sm8250/audio/configs/lito/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml
 
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
