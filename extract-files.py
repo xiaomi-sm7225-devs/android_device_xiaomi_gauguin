@@ -72,6 +72,12 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_unlock'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .sig_replace('E7 09 00 94', '1F 20 03 D5'),
+    'vendor/lib64/camera/components/com.vidhance.node.eis.so': blob_fixup()
+        # Allocate 0x1000 instead of 0x100 bytes for each android::GraphicBuffer
+        # the node constructs; the current one is 0xd30 bytes.
+        .sig_replace('02 20 80 52 19 6B 41 29', '02 00 82 52 19 6B 41 29')
+        .sig_replace('02 20 80 52 BF 03 1F F8', '02 00 82 52 BF 03 1F F8')
+        .sig_replace('02 20 80 52 0D 07 18 12', '02 00 82 52 0D 07 18 12'),
     'vendor/lib64/libwvhidl.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
     'vendor/lib64/libdpps.so': blob_fixup()
