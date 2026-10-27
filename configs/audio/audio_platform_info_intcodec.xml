@@ -42,6 +42,8 @@
         <usecase name="USECASE_AUDIO_PLAYBACK_OFFLOAD6" type="out" id="26"/>
         <usecase name="USECASE_AUDIO_PLAYBACK_OFFLOAD7" type="out" id="27"/>
         <usecase name="USECASE_AUDIO_PLAYBACK_OFFLOAD8" type="out" id="28"/>
+        <usecase name="USECASE_AUDIO_ULTRASOUND_RX" type="out" id="30"/>
+        <usecase name="USECASE_AUDIO_ULTRASOUND_TX" type="in" id="39"/>
         <usecase name="USECASE_VOICEMMODE1_CALL" type="in" id="2"/>
         <usecase name="USECASE_VOICEMMODE1_CALL" type="out" id="2"/>
         <usecase name="USECASE_VOICEMMODE2_CALL" type="in" id="15"/>
