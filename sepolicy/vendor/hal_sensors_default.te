@@ -1,3 +1,5 @@
+hal_client_domain(hal_sensors_default, hal_audio)
+
 # Access to the audio socket
 unix_socket_connect(hal_sensors_default, vendor_audio, hal_audio_default)
 allow hal_sensors_default vendor_audio_socket:sock_file rw_file_perms;
