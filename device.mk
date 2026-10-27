@@ -90,12 +90,23 @@ PRODUCT_PACKAGES += \
     audio.usb.default
 
 PRODUCT_PACKAGES += \
+    audio.primary.lito \
     sound_trigger.primary.lito
 
 PRODUCT_PACKAGES += \
+    liba2dpoffload \
+    libbatterylistener \
+    libcomprcapture \
+    libexthwplugin \
+    libhdmiedid \
+    libhfp \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libsndmonitor \
+    libspkrprot \
+    libssrec \
+    libtinycompress \
     libvolumelistener
 
 PRODUCT_PACKAGES += \
