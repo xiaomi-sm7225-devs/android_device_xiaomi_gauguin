@@ -131,6 +131,11 @@
         <device name="SND_DEVICE_OUT_USB_HEADSET_KARA" acdb_id="10020"/>
         <device name="SND_DEVICE_OUT_HEADPHONES_HIFI" acdb_id="10026"/>
         <device name="SND_DEVICE_OUT_HEADPHONES_44_1_HIFI" acdb_id="10026"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_MIC" acdb_id="4"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO" acdb_id="14"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO_WB" acdb_id="14"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO_SWB" acdb_id="14"/>
+        <device name="SND_DEVICE_OUT_ULTRASOUND" acdb_id="7"/>
     </acdb_ids>
     <backend_names>
         <device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones" interface="RX_CDC_DMA_RX_0"/>
