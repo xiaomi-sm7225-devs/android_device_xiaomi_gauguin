@@ -145,11 +145,11 @@
             <param capture_device="HANDSET" />
             <!-- adm_cfg_profile should match with the one defined under adm_config -->
             <!-- Set it to NONE if LSM directly connects to AFE -->
-            <param adm_cfg_profile="FFECNS" />
+            <param adm_cfg_profile="DEFAULT" />
             <!-- fluence_type: "FLUENCE_MIC", "FLUENCE_DMIC", "FLUENCE_TMIC"   -->
             <!-- "FLUENCE_QMIC". Param value is valid when adm_cfg_profile -->
             <!-- is FFECNS -->
-            <param fluence_type="FLUENCE_MIC" />
+            <param fluence_type="NONE" />
             <param execution_mode="ADSP" />
             <!-- lpi_mode: "NON_LPI_BARGE_IN", "NON_LPI", "LPI" -->
             <!-- NON_LPI_BARGE_IN: Default non-LPI mode type. lsm_usecase -->
