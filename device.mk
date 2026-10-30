@@ -88,6 +88,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     audio.primary.lito \
+    audio_amplifier.lito \
     sound_trigger.primary.lito
 
 PRODUCT_PACKAGES += \
