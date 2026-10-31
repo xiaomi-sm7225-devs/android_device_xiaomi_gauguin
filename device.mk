@@ -32,6 +32,8 @@ PRODUCT_PACKAGES += \
     GauguinWifiOverlay
 
 PRODUCT_PACKAGES += \
+    NfcOverlayM2007J17C \
+    NfcOverlayM2007J17G \
     SettingsOverlayM2007J17C \
     SettingsOverlayM2007J17G \
     SettingsOverlayM2007J17I \
