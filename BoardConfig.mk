@@ -182,3 +182,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 include vendor/xiaomi/gauguin/BoardConfigVendor.mk
+
+# Inherit from the MiuiCamera
+-include vendor/xiaomi/gauguin-miuicamera/BoardConfig.mk
