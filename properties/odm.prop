@@ -30,7 +30,7 @@ vendor.audio.feature.keep_alive.enable=true
 vendor.audio.feature.kpi_optimize.enable=false
 vendor.audio.feature.maxx_audio.enable=false
 vendor.audio.feature.multi_voice_session.enable=true
-vendor.audio.feature.ras.enable=true
+vendor.audio.feature.ras.enable=false
 vendor.audio.feature.record_play_concurency.enable=false
 vendor.audio.feature.snd_mon.enable=true
 vendor.audio.feature.spkr_prot.enable=false
@@ -39,7 +39,7 @@ vendor.audio.feature.ssrec.enable=true
 vendor.audio.feature.usb_offload_burst_mode.enable=true
 vendor.audio.feature.usb_offload_sidetone_volume.enable=false
 vendor.audio.feature.usb_offload.enable=true
-vendor.audio.feature.vbat.enable=true
+vendor.audio.feature.vbat.enable=false
 vendor.audio.feature.wsa.enable=false
 
 # Media
