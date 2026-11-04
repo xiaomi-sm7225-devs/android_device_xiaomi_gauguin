@@ -19,14 +19,14 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
-    GauguinApertureOverlay \
-    GauguinCarrierConfigOverlay \
-    GauguinFrameworksOverlay \
-    GauguinLauncherOverlay \
-    GauguinSettingsOverlay \
-    GauguinSystemUIOverlay \
-    GauguinTelephonyOverlay \
-    GauguinWifiOverlay
+    ApertureOverlayGauguin \
+    CarrierConfigOverlayGauguin \
+    FrameworksOverlayGauguin \
+    LauncherOverlayGauguin \
+    SettingsOverlayGauguin \
+    SystemUIOverlayGauguin \
+    TelephonyOverlayGauguin \
+    WifiOverlayGauguin
 
 PRODUCT_PACKAGES += \
     NfcOverlayM2007J17C \

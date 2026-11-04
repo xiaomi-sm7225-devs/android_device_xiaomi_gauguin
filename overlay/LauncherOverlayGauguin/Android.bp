@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "GauguinLauncherOverlay",
+    name: "LauncherOverlayGauguin",
     product_specific: true,
 }
